@@ -1,0 +1,7 @@
+my_assessment.content:
+  path: '/myassessment'
+  defaults:
+    _controller: '\Drupal\my_assessment\Controller\MyAssessmentController::content'
+    _title: 'My Assessment Page for O2E Brands'
+  requirements:
+    _permission: 'access content'

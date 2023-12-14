@@ -1,0 +1,5 @@
+name: 'My Assessment for O2E Brands'
+type: module
+description: 'Create a custom module which defines two custom services and anendpoint to demonstrate them.'
+core_version_requirement: ^10.1
+version: '1.0'

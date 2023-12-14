@@ -1,0 +1,10 @@
+services:
+  my_assessment.add_two_numbers:
+    class: Drupal\my_assessment\Service\Adder
+
+  my_assessment.string_formatter:
+    class: Drupal\my_assessment\Service\StringFormatter
+    defaults:
+      _controller: '\Drupal\my_assessment\Controller\MyAssessmentController::stringFormatter'
+    requirements:
+      _permission: 'access content'
